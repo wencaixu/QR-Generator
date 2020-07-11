@@ -24,13 +24,6 @@ class QRGenerator:
 
     @staticmethod
     def generate_qr_params(qr_name):
-        """
-          version  二维码尺寸[1,40] 最小尺寸为1,21*21，每+1，尺寸+4
-          box_size 二维码格子像素大小
-          border   边框格子大小
-        :param qr_name:
-        :return:
-        """
         qr = qrcode.QRCode(
             version=2,
             error_correction=qrcode.constants.ERROR_CORRECT_H,
@@ -54,7 +47,7 @@ class QRGenerator:
         qr.add_data(qr_name)
         qr.make(fit=True)
         # 设置填充颜色
-        qr_image = qr.make_image(fill_color="green", back_color="white")
+        qr_image = qr.make_image(fill_color="black", back_color="white")
         qr_image.convert("RGBA")
         icon = Image.open(logo).convert("RGBA")
         img_w, img_h = qr_image.size
