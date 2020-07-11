@@ -81,3 +81,11 @@
  [qrcode](https://pypi.org/project/qrcode/)
  [python生成个性化二维码](https://blog.csdn.net/xc_zhou/article/details/80952036)
  [python生成炫酷的二维码](https://blog.csdn.net/csdnnews/article/details/81880380)
+ 
+ 麻烦支持一下，本人公众号为：
+ <p align="center">
+     <img src="gif_qrcode.gif" 
+     height=200px
+     width=200px
+     alt="黑洞-一个基于Shell内核的外壳操作系统">
+ </p>
