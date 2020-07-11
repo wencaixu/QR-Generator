@@ -48,33 +48,33 @@
 
   -h, --help            显示myqr的帮助信息<br/>
   -v {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40}, <br/>
-  --version {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40}<br/>
-                        The version means the length of a side of the QR-Code<br/>
+  --version {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40}
+                        The version means the length of a side of the QR-Code
                         picture. From little size to large is 1 to 40.<br/>
-  -l {L,M,Q,H}, --level {L,M,Q,H}<br/>
+  -l {L,M,Q,H}, --level {L,M,Q,H}
                         Use this argument to choose an Error-Correction-Level:
                         L(Low), M(Medium) or Q(Quartile), H(High). Otherwise,
-                        just use the default one: H
-  -p PICTURE, --picture PICTURE<br/>
-                        the picture e.g. example.jpg
-  -c, --colorized       Produce a colorized QR-Code with your picture. Just<br/>
-                        works when there is a correct '-p' or '--picture'.
-  -con CONTRAST, --contrast CONTRAST<br/>
+                        just use the default one: H<br/>
+  -p PICTURE, --picture PICTURE
+                        the picture e.g. example.jpg<br/>
+  -c, --colorized       Produce a colorized QR-Code with your picture. Just
+                        works when there is a correct '-p' or '--picture'.<br/>
+  -con CONTRAST, --contrast CONTRAST
                         A floating point value controlling the enhancement of
                         contrast. Factor 1.0 always returns a copy of the
                         original image, lower factors mean less color
                         (brightness, contrast, etc), and higher values more.
-                        There are no restrictions on this value. Default: 1.0
+                        There are no restrictions on this value. Default: 1.0<br/>
   -bri BRIGHTNESS, --brightness BRIGHTNESS<br/>
                         A floating point value controlling the enhancement of
                         brightness. Factor 1.0 always returns a copy of the
                         original image, lower factors mean less color
                         (brightness, contrast, etc), and higher values more.
-                        There are no restrictions on this value. Default: 1.0
-  -n NAME, --name NAME  The filename of output tailed with one of {'.jpg',<br/>
-                        '.png', '.bmp', '.gif'}. eg. exampl.png
-  -d DIRECTORY, --directory DIRECTORY<br/>
-                        The directory of output.
+                        There are no restrictions on this value. Default: 1.0<br/>
+  -n NAME, --name NAME  The filename of output tailed with one of {'.jpg',
+                        '.png', '.bmp', '.gif'}. eg. exampl.png<br/>
+  -d DIRECTORY, --directory DIRECTORY
+                        The directory of output.<br/>
 
 
 参考：
