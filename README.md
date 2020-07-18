@@ -2,10 +2,10 @@
 
     QRCode依赖于pillow，在使用该库的时候请安装pillow库
     
-    ```shell
+```shell
         pip install pillow
         pip install numpy
-    ```
+```
    
    ```python
            import qrcode
